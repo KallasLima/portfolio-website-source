@@ -1,0 +1,807 @@
+{
+  "version": 1,
+  "source": "Kallas-Cockpit-Command.blend / v6",
+  "coordinateSystem": "glTF +X right, +Y up, +Z toward viewer; content z=0, lower bezel y=0",
+  "normalization": "Source assembly pitch and yaw removed; original height scales baked into meshes. No text or cockpit/deck geometry included.",
+  "camera": {
+    "sourceName": "01 Front | cockpit composition",
+    "blenderWorldMatrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.10606502,
+        -0.9943592,
+        -22.0
+      ],
+      [
+        0.0,
+        0.9943592,
+        0.10606502,
+        9.19999981
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "gltfWorldMatrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.10606502,
+        -0.9943592,
+        9.19999981
+      ],
+      [
+        0.0,
+        0.9943592,
+        0.10606502,
+        22.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "blenderPosition": [
+      0.0,
+      -22.0,
+      9.19999981
+    ],
+    "gltfPosition": [
+      0.0,
+      9.19999981,
+      22.0
+    ],
+    "lensMM": 52.29999923706055,
+    "sensorWidthMM": 36.0,
+    "sensorHeightMM": 24.0,
+    "sensorFit": "AUTO",
+    "fovHorizontalDegrees": 37.98367576696514,
+    "fovVerticalDegrees": 25.845174564592497,
+    "referenceWidth": 1600,
+    "referenceHeight": 1000
+  },
+  "models": {
+    "center": {
+      "file": "center.glb",
+      "root": "CenterDisplay",
+      "nominalWidth": 6.7,
+      "nominalHeight": 3.7765000000000004,
+      "contentWidth": 6.335,
+      "contentHeight": 3.4443500000000005,
+      "contentQuad": [
+        [
+          -3.1675,
+          3.610425,
+          0
+        ],
+        [
+          3.1675,
+          3.610425,
+          0
+        ],
+        [
+          3.1675,
+          0.16607499999999997,
+          0
+        ],
+        [
+          -3.1675,
+          0.16607499999999997,
+          0
+        ]
+      ],
+      "contentQuadOrder": "top-left,top-right,bottom-right,bottom-left",
+      "contentPlaneZ": 0,
+      "opticalCoverZ": 0.003,
+      "glassMeshName": "Center / optical cover glass",
+      "substrateMeshName": "Center / inset anti-glare display",
+      "bottomTiltPivot": [
+        0,
+        0,
+        0
+      ],
+      "pitchSignForForwardTilt": 1,
+      "hinge": null,
+      "bounds": {
+        "min": [
+          -3.3499999,
+          -3.6e-07,
+          -0.63099998
+        ],
+        "max": [
+          3.3499999,
+          3.77649975,
+          0.03349998
+        ]
+      },
+      "meshCount": 46,
+      "vertices": 11632,
+      "triangles": 23062,
+      "meshNames": [
+        "Center / anodized seam at lower corner.002",
+        "Center / anodized seam at lower corner.003",
+        "Center / case seam.001",
+        "Center / dark recessed gasket.001",
+        "Center / graphite back shell.001",
+        "Center / inset anti-glare display.001",
+        "Center / lower edge accent.002",
+        "Center / lower edge accent.003",
+        "Center / lower optical-port side return.002",
+        "Center / lower optical-port side return.003",
+        "Center / polished glass edge.001",
+        "Center / quiet cyan port.001",
+        "Center / rear cooling slot 00.001",
+        "Center / rear cooling slot 01.001",
+        "Center / rear cooling slot 02.001",
+        "Center / rear cooling slot 03.001",
+        "Center / rear cooling slot 04.001",
+        "Center / rear cooling slot 05.001",
+        "Center / rear cooling slot 06.001",
+        "Center / rear cooling slot 07.001",
+        "Center / rear cooling slot 08.001",
+        "Center / rear cooling slot 09.001",
+        "Center / rear cooling slot 10.001",
+        "Center / rear cooling slot 11.001",
+        "Center / rear cooling slot 12.001",
+        "Center / rear mounting receptacle.001",
+        "Center / rear recessed fixing.004",
+        "Center / rear recessed fixing.005",
+        "Center / rear recessed fixing.006",
+        "Center / rear recessed fixing.007",
+        "Center / rear service cassette.001",
+        "Center / rear service seam.001",
+        "Center / recessed lower optical port.001",
+        "Center / satin inner screen reveal.001",
+        "Center / sectioned polished structural bezel.001",
+        "Center / side ventilation.010",
+        "Center / side ventilation.011",
+        "Center / side ventilation.012",
+        "Center / side ventilation.013",
+        "Center / side ventilation.014",
+        "Center / side ventilation.015",
+        "Center / side ventilation.016",
+        "Center / side ventilation.017",
+        "Center / side ventilation.018",
+        "Center / side ventilation.019",
+        "Center / optical cover glass"
+      ],
+      "sourceRootWorldMatrixBlender": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.99756408,
+          0.06347839,
+          0.12
+        ],
+        [
+          0.0,
+          -0.06975647,
+          0.90778333,
+          6.06500006
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceContentQuadBlender": [
+        [
+          -3.16750002,
+          -0.00626547,
+          7.80021
+        ],
+        [
+          3.16750002,
+          -0.00626547,
+          7.80021
+        ],
+        [
+          3.16750002,
+          -0.24653116,
+          4.36424971
+        ],
+        [
+          -3.16750002,
+          -0.24653116,
+          4.36424971
+        ]
+      ],
+      "sourceContentQuadNDC": [
+        [
+          0.29100534,
+          0.40067267,
+          22.01814079
+        ],
+        [
+          0.70899463,
+          0.40067267,
+          22.01814079
+        ],
+        [
+          0.70780993,
+          0.76255266,
+          22.14366531
+        ],
+        [
+          0.29219007,
+          0.76255266,
+          22.14366531
+        ]
+      ],
+      "fileBytes": 600512,
+      "sha256": "711264c4432f49b2db891552ee9cdad3ecf98b823fb364b1bad8102cff267dc4"
+    },
+    "left": {
+      "file": "left.glb",
+      "root": "LeftDisplay",
+      "nominalWidth": 2.5,
+      "nominalHeight": 2.9575,
+      "contentWidth": 2.135,
+      "contentHeight": 2.6381249999999996,
+      "contentQuad": [
+        [
+          -1.0675,
+          2.7978125,
+          0
+        ],
+        [
+          1.0675,
+          2.7978125,
+          0
+        ],
+        [
+          1.0675,
+          0.1596875000000002,
+          0
+        ],
+        [
+          -1.0675,
+          0.1596875000000002,
+          0
+        ]
+      ],
+      "contentQuadOrder": "top-left,top-right,bottom-right,bottom-left",
+      "contentPlaneZ": 0,
+      "opticalCoverZ": 0.003,
+      "glassMeshName": "Left / optical cover glass",
+      "substrateMeshName": "Left / inset anti-glare display",
+      "bottomTiltPivot": [
+        0,
+        0,
+        0
+      ],
+      "pitchSignForForwardTilt": 1,
+      "hinge": {
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "point": [
+          1.24999976,
+          1.1388098,
+          0.02699995
+        ],
+        "openYawDegrees": 16,
+        "additionalFoldDegrees": 74,
+        "foldSign": 1,
+        "fixedRoot": "LeftFixedHinge",
+        "fixedMeshNames": [
+          "Left / fixed hinge / Hinge / collar end shoulder",
+          "Left / fixed hinge / Hinge / collar end shoulder.001",
+          "Left / fixed hinge / Hinge / collar end shoulder.002",
+          "Left / fixed hinge / Hinge / retention socket",
+          "Left / fixed hinge / Hinge / retention socket.001",
+          "Left / fixed hinge / Hinge / retention socket.002",
+          "Left / fixed hinge / Link / collar gasket",
+          "Left / fixed hinge / Link / collar gasket.001",
+          "Left / fixed hinge / Link / collar gasket.002",
+          "Left / fixed hinge / Link / dark hinge barrel",
+          "Left / fixed hinge / Link / flush upper cap",
+          "Left / fixed hinge / Link / machined hinge collar",
+          "Left / fixed hinge / Link / machined hinge collar.001",
+          "Left / fixed hinge / Link / machined hinge collar.002"
+        ],
+        "sourceWorldCenterBlender": [
+          -3.44654608,
+          0.07400811,
+          5.26999998
+        ],
+        "sourceWorldAxisBlender": [
+          -0.01922749,
+          0.06705423,
+          0.99756408
+        ]
+      },
+      "bounds": {
+        "min": [
+          -1.25000012,
+          1.19e-06,
+          -0.63099998
+        ],
+        "max": [
+          1.37398541,
+          2.95750117,
+          0.15920246
+        ]
+      },
+      "meshCount": 58,
+      "vertices": 20568,
+      "triangles": 40886,
+      "meshNames": [
+        "Left / anodized seam at lower corner.002",
+        "Left / anodized seam at lower corner.003",
+        "Left / case seam.001",
+        "Left / dark recessed gasket.001",
+        "Left / graphite back shell.001",
+        "Left / inset anti-glare display.001",
+        "Left / lower edge accent.002",
+        "Left / lower edge accent.003",
+        "Left / lower optical-port side return.002",
+        "Left / lower optical-port side return.003",
+        "Left / outer LED pocket.001",
+        "Left / outer blue core.001",
+        "Left / outer blue light guide.001",
+        "Left / polished glass edge.001",
+        "Left / quiet cyan port.001",
+        "Left / rear cooling slot 00.001",
+        "Left / rear cooling slot 01.001",
+        "Left / rear cooling slot 02.001",
+        "Left / rear cooling slot 03.001",
+        "Left / rear cooling slot 04.001",
+        "Left / rear cooling slot 05.001",
+        "Left / rear cooling slot 06.001",
+        "Left / rear cooling slot 07.001",
+        "Left / rear mounting receptacle.001",
+        "Left / rear recessed fixing.004",
+        "Left / rear recessed fixing.005",
+        "Left / rear recessed fixing.006",
+        "Left / rear recessed fixing.007",
+        "Left / rear service cassette.001",
+        "Left / rear service seam.001",
+        "Left / recessed lower optical port.001",
+        "Left / satin inner screen reveal.001",
+        "Left / sectioned polished structural bezel.001",
+        "Left / side ventilation.010",
+        "Left / side ventilation.011",
+        "Left / side ventilation.012",
+        "Left / side ventilation.013",
+        "Left / side ventilation.014",
+        "Left / side ventilation.015",
+        "Left / side ventilation.016",
+        "Left / side ventilation.017",
+        "Left / side ventilation.018",
+        "Left / side ventilation.019",
+        "Left / optical cover glass",
+        "Left / fixed hinge / Hinge / collar end shoulder",
+        "Left / fixed hinge / Hinge / collar end shoulder.001",
+        "Left / fixed hinge / Hinge / collar end shoulder.002",
+        "Left / fixed hinge / Hinge / retention socket",
+        "Left / fixed hinge / Hinge / retention socket.001",
+        "Left / fixed hinge / Hinge / retention socket.002",
+        "Left / fixed hinge / Link / collar gasket",
+        "Left / fixed hinge / Link / collar gasket.001",
+        "Left / fixed hinge / Link / collar gasket.002",
+        "Left / fixed hinge / Link / dark hinge barrel",
+        "Left / fixed hinge / Link / flush upper cap",
+        "Left / fixed hinge / Link / machined hinge collar",
+        "Left / fixed hinge / Link / machined hinge collar.001",
+        "Left / fixed hinge / Link / machined hinge collar.002"
+      ],
+      "sourceRootWorldMatrixBlender": [
+        [
+          0.96126169,
+          -0.27496591,
+          -0.01682405,
+          -4.73000002
+        ],
+        [
+          0.27563736,
+          0.95892012,
+          0.05867245,
+          0.015
+        ],
+        [
+          0.0,
+          -0.06975647,
+          0.87286854,
+          5.59000015
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceContentQuadBlender": [
+        [
+          -5.71359253,
+          -0.42764741,
+          6.92307949
+        ],
+        [
+          -3.66129875,
+          0.16083835,
+          6.92307949
+        ],
+        [
+          -3.61057425,
+          -0.01605909,
+          4.29138041
+        ],
+        [
+          -5.66286802,
+          -0.60454488,
+          4.29138041
+        ]
+      ],
+      "sourceContentQuadNDC": [
+        [
+          0.11734666,
+          0.49742877,
+          21.69216728
+        ],
+        [
+          0.26123473,
+          0.49098355,
+          22.27733421
+        ],
+        [
+          0.26562873,
+          0.76476017,
+          22.38056564
+        ],
+        [
+          0.12254016,
+          0.77852523,
+          21.79540062
+        ]
+      ],
+      "fileBytes": 1106280,
+      "sha256": "0892ee393bf7dec21b32236061398ceae5f9c4a2c7f6fc6eeebc232a1c0f4a87"
+    },
+    "right": {
+      "file": "right.glb",
+      "root": "RightDisplay",
+      "nominalWidth": 2.5,
+      "nominalHeight": 2.9575,
+      "contentWidth": 2.135,
+      "contentHeight": 2.6381249999999996,
+      "contentQuad": [
+        [
+          -1.0675,
+          2.7978125,
+          0
+        ],
+        [
+          1.0675,
+          2.7978125,
+          0
+        ],
+        [
+          1.0675,
+          0.1596875000000002,
+          0
+        ],
+        [
+          -1.0675,
+          0.1596875000000002,
+          0
+        ]
+      ],
+      "contentQuadOrder": "top-left,top-right,bottom-right,bottom-left",
+      "contentPlaneZ": 0,
+      "opticalCoverZ": 0.003,
+      "glassMeshName": "Right / optical cover glass",
+      "substrateMeshName": "Right / inset anti-glare display",
+      "bottomTiltPivot": [
+        0,
+        0,
+        0
+      ],
+      "pitchSignForForwardTilt": 1,
+      "hinge": {
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "point": [
+          -1.24999976,
+          1.1388098,
+          0.02699995
+        ],
+        "openYawDegrees": -16,
+        "additionalFoldDegrees": 74,
+        "foldSign": -1,
+        "fixedRoot": "RightFixedHinge",
+        "fixedMeshNames": [
+          "Right / fixed hinge / Hinge / collar end shoulder.003",
+          "Right / fixed hinge / Hinge / collar end shoulder.004",
+          "Right / fixed hinge / Hinge / collar end shoulder.005",
+          "Right / fixed hinge / Hinge / retention socket.003",
+          "Right / fixed hinge / Hinge / retention socket.004",
+          "Right / fixed hinge / Hinge / retention socket.005",
+          "Right / fixed hinge / Link / collar gasket.003",
+          "Right / fixed hinge / Link / collar gasket.004",
+          "Right / fixed hinge / Link / collar gasket.005",
+          "Right / fixed hinge / Link / dark hinge barrel.001",
+          "Right / fixed hinge / Link / flush upper cap.001",
+          "Right / fixed hinge / Link / machined hinge collar.003",
+          "Right / fixed hinge / Link / machined hinge collar.004",
+          "Right / fixed hinge / Link / machined hinge collar.005"
+        ],
+        "sourceWorldCenterBlender": [
+          3.44654608,
+          0.07400811,
+          5.26999998
+        ],
+        "sourceWorldAxisBlender": [
+          0.01922749,
+          0.06705423,
+          0.99756408
+        ]
+      },
+      "bounds": {
+        "min": [
+          -1.37398541,
+          1.19e-06,
+          -0.63099998
+        ],
+        "max": [
+          1.25000012,
+          2.95750117,
+          0.15920246
+        ]
+      },
+      "meshCount": 58,
+      "vertices": 20568,
+      "triangles": 40886,
+      "meshNames": [
+        "Right / anodized seam at lower corner.002",
+        "Right / anodized seam at lower corner.003",
+        "Right / case seam.001",
+        "Right / dark recessed gasket.001",
+        "Right / graphite back shell.001",
+        "Right / inset anti-glare display.001",
+        "Right / lower edge accent.002",
+        "Right / lower edge accent.003",
+        "Right / lower optical-port side return.002",
+        "Right / lower optical-port side return.003",
+        "Right / outer LED pocket.001",
+        "Right / outer blue core.001",
+        "Right / outer blue light guide.001",
+        "Right / polished glass edge.001",
+        "Right / quiet cyan port.001",
+        "Right / rear cooling slot 00.001",
+        "Right / rear cooling slot 01.001",
+        "Right / rear cooling slot 02.001",
+        "Right / rear cooling slot 03.001",
+        "Right / rear cooling slot 04.001",
+        "Right / rear cooling slot 05.001",
+        "Right / rear cooling slot 06.001",
+        "Right / rear cooling slot 07.001",
+        "Right / rear mounting receptacle.001",
+        "Right / rear recessed fixing.004",
+        "Right / rear recessed fixing.005",
+        "Right / rear recessed fixing.006",
+        "Right / rear recessed fixing.007",
+        "Right / rear service cassette.001",
+        "Right / rear service seam.001",
+        "Right / recessed lower optical port.001",
+        "Right / satin inner screen reveal.001",
+        "Right / sectioned polished structural bezel.001",
+        "Right / side ventilation.010",
+        "Right / side ventilation.011",
+        "Right / side ventilation.012",
+        "Right / side ventilation.013",
+        "Right / side ventilation.014",
+        "Right / side ventilation.015",
+        "Right / side ventilation.016",
+        "Right / side ventilation.017",
+        "Right / side ventilation.018",
+        "Right / side ventilation.019",
+        "Right / optical cover glass",
+        "Right / fixed hinge / Hinge / collar end shoulder.003",
+        "Right / fixed hinge / Hinge / collar end shoulder.004",
+        "Right / fixed hinge / Hinge / collar end shoulder.005",
+        "Right / fixed hinge / Hinge / retention socket.003",
+        "Right / fixed hinge / Hinge / retention socket.004",
+        "Right / fixed hinge / Hinge / retention socket.005",
+        "Right / fixed hinge / Link / collar gasket.003",
+        "Right / fixed hinge / Link / collar gasket.004",
+        "Right / fixed hinge / Link / collar gasket.005",
+        "Right / fixed hinge / Link / dark hinge barrel.001",
+        "Right / fixed hinge / Link / flush upper cap.001",
+        "Right / fixed hinge / Link / machined hinge collar.003",
+        "Right / fixed hinge / Link / machined hinge collar.004",
+        "Right / fixed hinge / Link / machined hinge collar.005"
+      ],
+      "sourceRootWorldMatrixBlender": [
+        [
+          0.96126169,
+          0.27496591,
+          0.01682405,
+          4.73000002
+        ],
+        [
+          -0.27563736,
+          0.95892012,
+          0.05867245,
+          0.015
+        ],
+        [
+          0.0,
+          -0.06975647,
+          0.87286854,
+          5.59000015
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceContentQuadBlender": [
+        [
+          3.66129875,
+          0.16083835,
+          6.92307949
+        ],
+        [
+          5.71359253,
+          -0.42764741,
+          6.92307949
+        ],
+        [
+          5.66286802,
+          -0.60454488,
+          4.29138041
+        ],
+        [
+          3.61057425,
+          -0.01605909,
+          4.29138041
+        ]
+      ],
+      "sourceContentQuadNDC": [
+        [
+          0.7387653,
+          0.49098355,
+          22.27733421
+        ],
+        [
+          0.88265336,
+          0.49742877,
+          21.69216728
+        ],
+        [
+          0.87745982,
+          0.77852523,
+          21.79540062
+        ],
+        [
+          0.7343713,
+          0.76476017,
+          22.38056564
+        ]
+      ],
+      "fileBytes": 1106460,
+      "sha256": "7ab7fe87abd0d5a36abee2ef2a808c65250af446e8b6b56d7b1faecc750cc681"
+    }
+  },
+  "shadowReceivers": {
+    "centerDeck": {
+      "sourceObject": "V5 Center / fitted satin deck",
+      "blenderEquation": "z = 3.865 + 0.29*y",
+      "gltfPlaneNormalUnnormalized": [
+        0,
+        1,
+        0.29
+      ],
+      "gltfPlaneConstantUnnormalized": -3.865,
+      "blenderOutline": [
+        [
+          -3.29,
+          -0.5
+        ],
+        [
+          -3.34,
+          -1.43
+        ],
+        [
+          -2.94,
+          -2.24
+        ],
+        [
+          2.94,
+          -2.24
+        ],
+        [
+          3.34,
+          -1.43
+        ],
+        [
+          3.29,
+          -0.5
+        ]
+      ],
+      "note": "This is source top surface. Adapt pixel-calibrated plane to current responsive deck placement."
+    },
+    "sideBays": {
+      "blenderEquation": "z = 3.995 + 0.33*y",
+      "gltfPlaneNormalUnnormalized": [
+        0,
+        1,
+        0.33
+      ],
+      "gltfPlaneConstantUnnormalized": -3.995
+    },
+    "lighting": {
+      "keyPositionBlender": [
+        -4.8,
+        -6.5,
+        12
+      ],
+      "keyPositionGltf": [
+        -4.8,
+        12,
+        6.5
+      ],
+      "fillPositionBlender": [
+        6,
+        -3.4,
+        9.6
+      ],
+      "fillPositionGltf": [
+        6,
+        9.6,
+        3.4
+      ],
+      "keyColor": [
+        1,
+        0.96,
+        0.9
+      ],
+      "keyAreaSizeSource": 6,
+      "note": "A broad overhead front-left key creates soft backward/right moving shadows as the assembly pitches. Screen blue spill should move with screen planes."
+    }
+  },
+  "environment": {
+    "file": "studio.hdr",
+    "source": "Poly Haven Studio Small 09",
+    "sourceBlenderRotationZDegrees": 32,
+    "suggestedIntensity": 1.0
+  },
+  "runtimeLOD": {
+    "method": "Export-only bevel tessellation",
+    "housingBevelSegments": 4,
+    "smallDetailBevelSegments": 3,
+    "sourceBlendUnchanged": true
+  }
+}

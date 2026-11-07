@@ -1,0 +1,22 @@
+# Generated runtime and entry files. Edit the source modules/builders instead.
+assets/
+share-images/
+design/
+drizzle/
+node_modules/
+.releases/
+dist/
+.wrangler/
+hybrid-artwork.js
+hybrid-firstview.js
+hybrid-enhancement.js
+hybrid-original.js
+display-engine.js
+finish-worker.js
+**/index.html
+404.html
+test-results/
+playwright-report/
+package-lock.json
+/performance-results/
+THIRD-PARTY-NOTICES.txt

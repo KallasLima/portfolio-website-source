@@ -1,0 +1,30 @@
+/* Optional Quiet orbit comparison: the entire exterior shares one translation.
+   The windshield frame, reader and controls never inherit this motion. */
+.space-view {
+  --orbit-x: 8px;
+  --orbit-y: 2px;
+  animation: quiet-orbit 64s ease-in-out infinite;
+  animation-play-state: paused;
+}
+.cockpit[data-orbit='running'] .space-view {
+  animation-play-state: running;
+}
+@keyframes quiet-orbit {
+  0%,
+  50%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  25% {
+    transform: translate3d(calc(-1 * var(--orbit-x)), calc(-1 * var(--orbit-y)), 0);
+  }
+  75% {
+    transform: translate3d(var(--orbit-x), var(--orbit-y), 0);
+  }
+}
+@media (max-width: 740px) {
+  .space-view {
+    --orbit-x: 3px;
+    --orbit-y: 1px;
+  }
+}

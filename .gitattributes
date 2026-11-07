@@ -1,0 +1,14 @@
+* text=auto eol=lf
+*.js text eol=lf
+*.mjs text eol=lf
+*.cjs text eol=lf
+*.css text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.html text eol=lf
+hybrid-firstview.js linguist-generated=true
+hybrid-enhancement.js linguist-generated=true
+hybrid-original.js linguist-generated=true
+display-engine.js linguist-generated=true
+finish-worker.js linguist-generated=true

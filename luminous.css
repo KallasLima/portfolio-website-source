@@ -1,0 +1,102 @@
+/* Keep the original dark cabin plate and its local LED reflections dominant.
+   The decorative pearl layer is only a faint edge accent, never a room fill.
+   Layout, manuscript and all gesture ownership remain with the shared cockpit implementation. */
+/* The faint accent is painted with the same proportional cabin slices. */
+.cabin-lighting {
+  display: none;
+}
+.cockpit-ceiling {
+  background-image: url('assets/cockpit-ceiling.svg?v=polish-1');
+  filter: brightness(0.72) contrast(1.16);
+}
+.site-header {
+  background: linear-gradient(110deg, #0b1d29a6, #142a3570 55%, #0b1d29a6);
+  border-bottom-color: #a1e3ed54;
+  box-shadow: 0 1px 0 #d8f9ff18;
+}
+.site-header h1 {
+  color: #f3fafc;
+  text-shadow: 0 1px 3px #03111a55;
+}
+.site-header p {
+  color: #c1d6df;
+}
+.site-header a {
+  background: linear-gradient(150deg, #c7efff10, #08223180);
+  border-color: #a3d8e83d;
+  box-shadow:
+    inset 0 1px 0 #f0fbff12,
+    0 3px 8px #020a1114;
+}
+.site-header a:hover {
+  background: #8ccfe523;
+  border-color: #a8e6f276;
+}
+.physical-console .screen-center {
+  background:
+    radial-gradient(ellipse at 25% 0%, #12506a33, transparent 65%),
+    linear-gradient(145deg, #082f43, #042637 58%, #062b3e);
+  box-shadow:
+    inset 0 0 0 1px #b9f3ff9c,
+    inset 0 0 4px 2px #2cbded60,
+    inset 0 1px 20px #008ac538,
+    inset 0 -1px 9px #55d9e82e;
+}
+.physical-console .screen-left,
+.physical-console .screen-right {
+  background: linear-gradient(145deg, #0c3548, #042638);
+  box-shadow:
+    inset 0 0 0 1px #a9ebff70,
+    inset 0 0 5px #32c9f144;
+}
+/* Keep the Editorial variant crisp: light belongs to the glass, not the glyphs. */
+.physical-console .screen-article {
+  color: #eaf5fb;
+  text-shadow: none;
+  scrollbar-color: #91bccb #092b3d;
+}
+.physical-console .screen-article h2 {
+  color: #f6fcff;
+  text-shadow: none;
+}
+.chapter-body a {
+  color: #b4f2ee;
+}
+.carousel-arrow {
+  background: linear-gradient(150deg, #b5e9f216, #0b283abe);
+  border-color: #a4dce852;
+  box-shadow:
+    inset 0 1px 0 #e9fdff12,
+    0 2px 8px #00141d26;
+  transition:
+    background 0.15s,
+    border-color 0.15s,
+    box-shadow 0.15s;
+}
+.carousel-arrow:hover:not(:disabled):not([aria-disabled='true']) {
+  background: #236075aa;
+  border-color: #baf2ee9e;
+  box-shadow:
+    inset 0 1px 0 #e9fdff24,
+    0 0 15px #64c7d51a;
+}
+.carousel-dots .destination-dot::after {
+  background: #518798;
+  box-shadow: inset 0 0 0 1px #a7dce142;
+}
+.carousel-dots .destination-dot[aria-current='true']::after {
+  background: #ffe0b8;
+  box-shadow:
+    0 0 12px #ffc98c66,
+    inset 0 0 0 1px #fff3d8aa;
+}
+@media (max-width: 700px), (max-width: 1000px) and (max-height: 500px) {
+  .cabin-lighting {
+    opacity: 0.08;
+  }
+  .physical-console .screen-center {
+    background:
+      radial-gradient(ellipse at 20% 0%, #12506a33, transparent 65%),
+      linear-gradient(150deg, #0a3042, #042638);
+  }
+}

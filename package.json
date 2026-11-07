@@ -1,0 +1,30 @@
+{
+  "name": "portfolio-website-source",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=24.19.0 <25"
+  },
+  "scripts": {
+    "build": "node scripts/build-metadata.cjs && node scripts/compress-models.cjs && node scripts/build-hybrid-proof.cjs",
+    "dev": "node scripts/preview.cjs",
+    "start": "node scripts/preview.cjs",
+    "test": "node --test scripts/motion.test.cjs scripts/contact.test.cjs scripts/deterministic-gzip.test.cjs scripts/hybrid-entries.test.cjs scripts/model-delta.test.cjs scripts/gpu-settle.test.cjs scripts/preparation-budget.test.cjs scripts/preview.test.cjs",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "eslint": "10.12.0",
+    "globals": "17.13.0",
+    "esbuild": "0.28.2",
+    "prettier": "3.9.10"
+  },
+  "overrides": {
+    "minimatch": "^11.0.1"
+  }
+}

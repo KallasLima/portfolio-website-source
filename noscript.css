@@ -1,0 +1,138 @@
+/* Only loaded when JavaScript is disabled. The same manuscript stays usable. */
+html,
+body {
+  height: auto !important;
+  min-height: 100%;
+  overflow: auto !important;
+}
+html[data-boot] #cockpit {
+  opacity: 1 !important;
+}
+#cockpit {
+  position: static;
+  overflow: visible;
+  user-select: text;
+  min-height: 100vh;
+  padding: 24px clamp(18px, 5vw, 56px);
+  background: #06121c;
+}
+#cockpit > .entrance-cabin,
+#cockpit > .space-view,
+#cockpit > .cockpit-ceiling,
+#stage,
+#reading-layout,
+#cockpit > .console-navigation,
+#status,
+#entrance,
+#display-stage,
+#tilt-grip,
+.device-material,
+.reading-continuation {
+  display: none !important;
+}
+#cockpit .site-header {
+  position: static;
+  max-width: 760px;
+  margin: 0 auto 48px;
+  padding: 0 0 24px;
+  flex-wrap: wrap;
+  background: none;
+  box-shadow: none;
+}
+#cockpit .site-header nav {
+  flex-wrap: wrap;
+}
+#contact-open {
+  display: none;
+}
+.static-contact {
+  flex-basis: 100%;
+  overflow-wrap: anywhere;
+}
+.static-contact a {
+  text-decoration: underline;
+}
+.reading-index {
+  max-width: 760px;
+  margin: 0 auto 32px;
+  line-height: 2;
+  color: #a1e8e7;
+}
+.reading-index a {
+  text-decoration: underline;
+}
+#display-assembly,
+#cockpit .reading-device,
+#center-screen,
+#screen-copy {
+  position: static !important;
+  inset: auto !important;
+  transform: none !important;
+  width: auto !important;
+  height: auto !important;
+  max-height: none !important;
+  overflow: visible !important;
+  contain: none !important;
+  clip-path: none !important;
+  mask: none !important;
+  background: none !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  pointer-events: auto !important;
+  will-change: auto !important;
+}
+#cockpit::after,
+#cockpit .reading-device::before,
+#cockpit .reading-device::after,
+#center-screen::before,
+#center-screen::after,
+#screen-copy::before {
+  display: none !important;
+}
+#screen-copy .screen-article {
+  position: static;
+  inset: auto;
+  opacity: 1 !important;
+  transform: none !important;
+  overflow: visible;
+  height: auto;
+  max-height: none;
+  padding: 0;
+  margin: 0 auto 56px;
+  max-width: 760px;
+  pointer-events: auto !important;
+  will-change: auto;
+}
+#screen-copy .reading-column {
+  max-width: none;
+  width: auto;
+  padding: 0;
+  font-size: 18px;
+  line-height: 1.7;
+}
+#screen-copy h2 {
+  font-size: clamp(28px, 5vw, 38px);
+  line-height: 1.2;
+  margin: 0 0 14px;
+}
+#screen-copy h3 {
+  font-size: 23px;
+  line-height: 1.35;
+  margin: 32px 0 14px;
+}
+#screen-copy h4 {
+  font-size: 20px;
+  line-height: 1.4;
+  margin: 24px 0 12px;
+}
+#screen-copy p,
+#screen-copy li {
+  font-size: 18px;
+  line-height: 1.7;
+}
+#screen-copy a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  color: #a1e8e7;
+}

@@ -1,0 +1,62 @@
+html:not([data-hybrid='interactive']) #cockpit {
+  opacity: 0;
+}
+html[data-hybrid] #cockpit {
+  opacity: 1;
+}
+html[data-hybrid]:not([data-hybrid='interactive']) #display-hardware,
+html[data-hybrid]:not([data-hybrid='interactive']) .space-view > :not(.hybrid-exterior),
+html[data-hybrid]:not([data-hybrid='interactive'])
+  #stage
+  > :not(.hybrid-cabin):not(#instruments):not(.hybrid-native-instruments) {
+  visibility: hidden;
+}
+html[data-hybrid]:not([data-hybrid='interactive']) #screen-copy > article:not(.hybrid-entry) {
+  display: none;
+}
+.hybrid-cabin {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+#hybrid-layers {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  pointer-events: none;
+}
+#hybrid-layers > img {
+  position: absolute;
+  transform-origin: 0 0;
+  pointer-events: none;
+}
+.hybrid-shadow {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+.hybrid-exterior {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.hybrid-preview-image {
+  height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 0 0.65cqw #6dd7e52b);
+}
+html[data-hybrid]:not([data-hybrid='interactive']) .tilt-grip {
+  visibility: hidden;
+}
+/* Availability changes at readiness; its resting appearance does not. */
+html[data-hybrid]:not([data-hybrid='interactive']):not([data-entry-chapter='0']) #previous:disabled,
+html[data-hybrid]:not([data-hybrid='interactive']):not([data-entry-chapter='5']) #next:disabled {
+  opacity: 1;
+}

@@ -1,0 +1,77 @@
+{
+  "finishes": [
+    {
+      "file": "finish-01.hdr",
+      "index": 0,
+      "key": "[\"LIVE / emissive blue display substrate\",\"051d2e\",\"05283a\",1,0,0.11999999731779099,1,0.6499999761581421,0.07000000029802322]",
+      "name": "LIVE / emissive blue display substrate"
+    },
+    {
+      "file": "finish-02.hdr",
+      "index": 1,
+      "key": "[\"LIVE / Ice cyan | restrained task lighting\",\"1dc4ff\",\"1dc4ff\",3.200000047683716,0,0.11999999731779099,1,0.10000000149011612,0.10000000149011612]",
+      "name": "LIVE / Ice cyan | restrained task lighting"
+    },
+    {
+      "file": "finish-03.hdr",
+      "index": 2,
+      "key": "[\"LIVE / Dark grey | satin structural shell\",\"454e56\",\"000000\",1,0.20000000298023224,0.36000001430511475,1,0.03500000014901161,0.10000000149011612]",
+      "name": "LIVE / Dark grey | satin structural shell"
+    },
+    {
+      "file": "finish-04.hdr",
+      "index": 3,
+      "key": "[\"LIVE / Satin aluminum | hinge collars\",\"9baab3\",\"000000\",1,0.94,0.32,1.05,0.03999999910593033,0.10000000149011612]",
+      "name": "LIVE / Satin aluminum | hinge collars"
+    },
+    {
+      "file": "finish-05.hdr",
+      "index": 4,
+      "key": "[\"LIVE / Polished silver | rounded machined edges\",\"d4dae1\",\"000000\",1,1,0.19,0.95,0.10000000149011612,0.10000000149011612]",
+      "name": "LIVE / Polished silver | rounded machined edges"
+    },
+    {
+      "file": "finish-06.hdr",
+      "index": 5,
+      "key": "[\"LIVE / Cabin | brushed graphite seams\",\"2c3a44\",\"000000\",1,0.699999988079071,0.25999999046325684,1,0.019999999552965164,0.10000000149011612]",
+      "name": "LIVE / Cabin | brushed graphite seams"
+    },
+    {
+      "file": "finish-07.hdr",
+      "index": 6,
+      "key": "[\"LIVE / Charcoal elastomer | gaskets\",\"1f282f\",\"000000\",1,0.07999999821186066,0.4300000071525574,1,0,0.10000000149011612]",
+      "name": "LIVE / Charcoal elastomer | gaskets"
+    },
+    {
+      "file": "finish-08.hdr",
+      "index": 7,
+      "key": "[\"LIVE / Graphite grey | device backs\",\"2c343d\",\"000000\",1,0.3199999928474426,0.30000001192092896,1,0.05999999865889549,0.10000000149011612]",
+      "name": "LIVE / Graphite grey | device backs"
+    },
+    {
+      "file": "finish-09.hdr",
+      "index": 8,
+      "key": "[\"LIVE / Recesses | soft black\",\"141b22\",\"000000\",1,0.10000000149011612,0.4399999976158142,1,0,0.10000000149011612]",
+      "name": "LIVE / Recesses | soft black"
+    },
+    {
+      "file": "finish-10.hdr",
+      "index": 9,
+      "key": "[\"LIVE / Ice white | light-guide core\",\"6fe5ff\",\"6fe5ff\",4,0,0.11999999731779099,1,0.10000000149011612,0.10000000149011612]",
+      "name": "LIVE / Ice white | light-guide core"
+    },
+    {
+      "file": "finish-11.hdr",
+      "index": 10,
+      "key": "[\"\",\"9facb2\",\"000000\",1,0.95,0.2,1,0,0]",
+      "name": ""
+    },
+    {
+      "file": "finish-12.hdr",
+      "index": 11,
+      "key": "[\"\",\"142531\",\"000000\",1,0.7,0.29,1,0,0]",
+      "name": ""
+    }
+  ],
+  "version": 1
+}
